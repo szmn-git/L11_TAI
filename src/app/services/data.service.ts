@@ -6,7 +6,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class DataService {
 
-  private url = 'https://tai21-test.herokuapp.com/';
+  private url = 'https://l11-tai-deploy.herokuapp.com/';
 
   constructor(private http: HttpClient) {
   }
